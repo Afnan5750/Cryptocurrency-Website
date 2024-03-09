@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url(/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: #ff960b;
+}
+
+nav .btn {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.content {
+    margin-top: 10%;
+}
+
+.content h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.content span {
+    color: #ff960b;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.content .btn {
+    display: inline-block;
+    margin-top: 30px;
+    background: #ff960b;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.content .btn:hover {
+    background: #ec8b0b;
+}
+
+.coin-list {
+    position: absolute;
+    left: 86px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    /* border-top: 1px solid #ff960b; */
+}
+
+.coin {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: #ff960b;
+    /* border: 1px solid white; */
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.coin img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.coin h3 {
+    color: white;
+    margin-bottom: 5px;
+}
